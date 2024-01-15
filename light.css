@@ -1,0 +1,50 @@
+.span{color:greenyellow;font-weight: bold;}.a{color:rgb(61, 86, 120); padding: 5px; }
+.overend{display:flex;gap:20px;width:80%; position:relative;border:5px solid goldenrod;
+    border-radius:5px 55px 5px 55px;overflow:hidden;
+     height:auto;height:auto; position:relative;
+     margin-bottom: 20px;color:yellow;}.header p{padding:10px;}
+      .img{width:30px; padding:10px; animation-name:transform; animation-duration:8s;}
+      @keyframes rotate{10%{transform:rotate(3deg);}20%{transform:rotate(-3deg);}30%{transform:rotate(3deg);}
+      40%{transform:rotate(-3deg);}50%{transform:rotate(3deg);}
+      60%{transform:rotate(-3deg);}70%{transform:rotate(3deg);}80%{transform:rotate(-3deg);}90%{transform:rotate(3deg);}
+      100%{transform:rotate(1deg);}}
+       @keyframes transform{10%{transform:rotate(5deg) translateY(3px) translateY(3px) 
+        skew(5deg);}50%{transform:rotate(-5deg) translateY(-5px) translateY(-3px) skew(-0.06turn);}100%{transform:rotate(8deg)
+             translateY(8px)
+             translateY(3px) skew(-0.08turn);}}
+         @keyframes color{0%{color:red;} 20%{color:yellow;}40%{color:blue;} 60%{color:gold;}80%{color:goldenrod}
+         100%{color:gold;}}
+ aside img{width:20px;height:20px;padding:15px;} svg{transform:scale(0.5)skew(30deg); position:absolute; top:50px; left:35%;}
+ .hand::after{position:absolute; color:red; content:"hello";top:20px; z-index:1000;}
+ .text{font-size:25px; font-style: italic; text-shadow: 3px 3px 10px red;
+color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
+.home{color:yellow; border:3px solid rgb(242, 242, 33);
+     box-shadow:inset 2px 2px 0px 0px rgb(249, 94, 94); padding:3px; text-align:center;}
+     .firsthome{position:absolute; top:110px;left:30px; display:grid;gap:20px;z-index:1000;}
+     .asideone{border:3px solid white;position:fixed;right:20px; top:200px; display:grid; z-index:1000;}
+     .twoaside{border:3px solid white;position:fixed;left:15%; top:200px;
+        border:5px solid white;display:grid; z-index:1000; opacity:0; background-color: white;;}
+        .opa{font-size:20px;color:red;padding:5px;border:5px solid yellow; font-weight: bold;  animation-name:border , color;
+             animation-duration:8s;}
+             @keyframes border { 10%{border: 5px solid red;}
+             30%{border:5px solid black;}
+             50% {border:5px solid blue;}
+             70%{border:5px solid green;}
+             100%{border:5px solid red;}
+                
+             }
+             .header img{border-radius:25px 45px 25px 45px; border:5px double goldenrod; box-shadow:inset 8px 8px 3px 0 goldenrod,
+                inset -8px -8px 3px 0 goldenrod;} 
+                 svg{transform:scale(0.5)skew(30deg); position:absolute; top:50px; left:35%;}
+                 .hand::after{position:absolute; color:red; content:"hello";top:20px; z-index:1000;}
+                  .nintendo{width:100%;height:auto; margin:auto;padding-top:40px;justify-content:center; text-align:center;}
+                  .start{display:flex;}
+                  .end{display:flex;}
+                  .tendo{width:100%; height:auto; margin:auto;padding-top:40px;justify-content:center; text-align:center;}
+                  .red{background-color:red;}
+                  .order{font-size:8px;opacity:0;}
+                  body{background-color:rgb(193, 131, 32);}
+                  .twoaside{border:3px solid white;position:fixed;left:15%; top:200px;
+                 border:5px solid white;display:grid; z-index:1000; opacity:0;}
+                 .pictures{text-align:center;margin:auto;}
+                 .header{width:320px;display:flex; gap:15px;}
