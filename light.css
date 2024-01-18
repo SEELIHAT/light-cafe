@@ -38,13 +38,16 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
                  svg{transform:scale(0.5)skew(30deg); position:absolute; top:50px; left:35%;}
                  .hand::after{position:absolute; color:red; content:"hello";top:20px; z-index:1000;}
                   .nintendo{width:100%;height:auto; margin:auto;padding-top:40px;justify-content:center; text-align:center;}
-                  .start{display:flex;}
+                  .start{display:flex;margin-top:10px;}
+                  .button{display:grid;margin-top:40%;margin-bottom:15%; width:15%;}
+                  .button button{ margin:auto; height:50%;}
                   .end{display:flex;}
                   .tendo{width:100%; height:auto; margin:auto;padding-top:40px;justify-content:center; text-align:center;}
                   .red{background-color:red;}
-                  .order{font-size:8px;opacity:0;}
+                  .order{font-size:3px;opacity:1;}
                   body{background-color:rgb(193, 131, 32);}
                   .twoaside{border:3px solid white;position:fixed;left:15%; top:200px;
                  border:5px solid white;display:grid; z-index:1000; opacity:0;}
                  .pictures{text-align:center;margin:auto;}
                  .header{width:320px;display:flex; gap:15px;}
+                 
