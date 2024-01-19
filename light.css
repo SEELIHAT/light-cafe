@@ -39,7 +39,7 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
                  .hand::after{position:absolute; color:red; content:"hello";top:20px; z-index:1000;}
                   .nintendo{width:100%;height:auto; margin:auto;padding-top:40px;justify-content:center; text-align:center;}
                   .start{display:flex;margin-top:10px;}
-                  .button{display:grid;margin-top:35%;margin-bottom:15%; width:15%;}
+                  .button{display:grid;margin-top:30%;margin-bottom:15%; width:15%;}
                   .button button{ margin:auto; height:50%;}
                   .end{display:flex;}
                   .tendo{width:100%; height:auto; margin:auto;padding-top:40px;justify-content:center; text-align:center;}
