@@ -31,12 +31,12 @@ function toggleRedClass(element) {
  
          // Clear the textarea after sending
          textarea.value = '';
-         textarea.value += '\nwe will call you.If want again order refresh page';
+         textarea.value += '\nWe will call you.If want again order refresh page';
          textarea.style.color = 'red';
          
          textarea.style.textAlign = 'center';
          // Display a thank you message
-         alert('Thank you for the order!');
+         
      } else {
          // If no red buttons are selected, show an alert
          alert('Please select at least one item before sending the order.');
