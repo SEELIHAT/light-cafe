@@ -50,4 +50,5 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
                  border:5px solid white;display:grid; z-index:1000; opacity:0;}
                  .pictures{text-align:center;margin:auto;}
                  .header{width:320px;display:flex; gap:15px;}
+                 .texttop{color:white; font-size: 16px;font-style: italic;text-align:center;}
                  
