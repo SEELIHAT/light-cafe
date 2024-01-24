@@ -24,8 +24,8 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
      .asideone{border:3px solid white;position:fixed;right:20px; top:200px; display:grid; z-index:1000;}
      .twoaside{position:fixed;left:15%; top:200px;
         display:grid; z-index:1000; opacity:0;}
-        .opa{font-size:20px;color:red;padding:5px;border:5px solid yellow; font-weight: bold;  animation-name: color;
-             animation-duration:8s;}
+        .opa{font-size:20px;color:red;padding:5px;border:5px solid red; font-weight: bold;  animation-name: color;
+             animation-duration:8s; background-color: white;}
              @keyframes border { 10%{border: 5px solid red;}
              30%{border:5px solid black;}
              50% {border:5px solid blue;}
@@ -51,4 +51,9 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
                  .pictures{text-align:center;margin:auto;}
                  .header{width:320px;display:flex; gap:15px;}
                  .texttop{color:white; font-size: 16px;font-style: italic;text-align:center;}
+                 .bask{animation-name:rotates;animation-duration:8s; width:50px; height:auto;}
+                 @keyframes rotates{10%{transform:rotate(15deg);}20%{transform:rotate(-15deg);}
+                 30%{transform:rotate(15deg);}40%{transform:rotate(-15deg);}50%{transform:rotate(15deg);}
+                 60%{transform:rotate(-15deg);}70%{transform:rotate(15deg);}80%{transform:rotate(-15deg);}
+                 90%{transform:rotate(15deg);}100%{transform:rotate(-1deg);}}
                  
