@@ -22,9 +22,9 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
      box-shadow:inset 2px 2px 0px 0px rgb(249, 94, 94); padding:3px; text-align:center;}
      .firsthome{position:absolute; top:110px;left:30px; display:grid;gap:20px;z-index:1000;}
      .asideone{border:3px solid white;position:fixed;right:20px; top:200px; display:grid; z-index:1000;}
-     .twoaside{border:3px solid white;position:fixed;left:15%; top:200px;
-        border:5px solid white;display:grid; z-index:1000; opacity:0; background-color: white;;}
-        .opa{font-size:20px;color:red;padding:5px;border:5px solid yellow; font-weight: bold;  animation-name:border , color;
+     .twoaside{position:fixed;left:15%; top:200px;
+        display:grid; z-index:1000; opacity:0;}
+        .opa{font-size:20px;color:red;padding:5px;border:5px solid yellow; font-weight: bold;  animation-name: color;
              animation-duration:8s;}
              @keyframes border { 10%{border: 5px solid red;}
              30%{border:5px solid black;}
