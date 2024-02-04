@@ -70,5 +70,27 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
                  60%{transform:rotate(-15deg);}70%{transform:rotate(15deg);}80%{transform:rotate(-15deg);}
                  90%{transform:rotate(15deg);}100%{transform:rotate(-1deg);}}
                  .info{color:blue;text-align: center; font-size:20px; font-style: italic;border:5px solid blueviolet; padding:5px;}
+
+
+                 .dropdown-content a{padding:3px; color:red; border:3px solid gray; background-color:yellow; }
+
+
+.dropdown {
+        position: relative;
+        display: inline-block;
+      }
+  
+.dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+ 
+.dropdown:hover .dropdown-content {
+        display: grid;
+      }
                  
                  
