@@ -33,6 +33,11 @@ color:yellow; width:90%; padding:10px; text-align:center; margin:auto;}
              100%{border:5px solid red;}
                 
              }
+             .footercontact{height:200px; display:flex;border:3px solid yellow;
+              box-shadow:inset 5px 5px 5px 1px black,
+              inset -5px -5px 5px 1px black ; margin-top:-5px; 
+              border-radius:15px 25px 15px 25px;overflow:hidden;}
+             .addres{color:white;display:grid;margin-top:0px;}
              .footerid{ height:200px; display:flex;border:3px solid yellow;
                box-shadow:inset 5px 5px 5px 1px black,
                inset -5px -5px 5px 1px black ; 
