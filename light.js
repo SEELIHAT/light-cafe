@@ -44,8 +44,11 @@ function toggleRedClass(element) {
  }
 
 
- let holliday = prompt('Sorry we are don,t work this and next mounth','ok');
- if ('Ok' == holliday){alert('Thank you BOSS');}
+ let hay = prompt('we don\'t work this and next mounth Sorry');
+if (hay === 'Ok') {
+    alert('thank you');
+}
+
 
 
 
