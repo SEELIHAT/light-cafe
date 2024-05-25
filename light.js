@@ -44,7 +44,7 @@ function toggleRedClass(element) {
  }
 
 
- let hay = prompt('WE DON\'t WORK THIS and NEXT MOUNTH SORRY','All right?');
+ let hay = prompt('I am don,t work now becouse i love my flower Baby','All right?');
  if (hay === 'Ok') {
      alert('thank you');
  }
